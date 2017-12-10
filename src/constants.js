@@ -1,1 +1,4 @@
-export const ADD_REMINDER = 'ADD_REMINDER';
+export const constants = {
+	ADD_REMINDER:'ADD_REMINDER',
+	DELETE_REMINDER: 'DELETE_REMINDER'
+}

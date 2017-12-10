@@ -1,10 +1,8 @@
-import { ADD_REMINDER } from '../constants';
+import {addReminder} from './addReminder';
+import {deleteReminder} from './deleteReminder';
 
-export const addReminder = (text) => {
-	const action = {
-		type: ADD_REMINDER,
-		data: text
-	}
 
-	return action;
+export default {
+	addReminder:addReminder,
+	deleteReminder:deleteReminder
 }
